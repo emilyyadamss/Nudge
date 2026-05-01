@@ -1,5 +1,26 @@
 # Nudge
-This project is a personal productivity tool that is designed to help users manage multiple small goals by intelligently distributing time across them. The core problem it solves is decision fatigue. When you have many goals, it becomes difficult to decide what to work on. The app removes that friction by algorithmically selecting which goal deserves your attention each day. 
+This project is a personal productivity tool that is designed to help users manage multiple small goals by intelligently distributing time across them. The core problem it solves is decision fatigue. When you have many goals, it becomes difficult to decide what to work on. The app removes that friction by algorithmically selecting which goal deserves your attention each day.
+
+## For Project Setup
+In pulling the project, make sure python(3) and pip are installed in the IDE. Then create a virtual environment with 
+```jsx
+python3 -m venv venv
+```
+Activate it by, 
+```jsx
+source venv/bin/activate
+```
+to deactivate, simply type 'deactivate'. 
+
+Install in the virtual environment, 
+```jsx 
+pip install fastapi uvicorn 
+```
+Then install Vite and React 
+```jsx 
+npm create vite@latest 
+``` 
+With React and regular Javascript. 
 
 ## Purpose and Problem Statement
 Users with many small goals often face two challenges: 
