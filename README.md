@@ -22,6 +22,18 @@ npm create vite@latest
 ``` 
 With React and regular Javascript. 
 
+### Backend Start
+CD into the backend directory and activate the virtual environment. Then run this command: 
+```jsx
+uvicorn app.main:app --reload  
+```
+
+### Frontend Start
+CD into the frontend directory and it would automatically activate the virtual environment. Then run this command: 
+```jsx 
+npm run dev 
+```
+
 ## Purpose and Problem Statement
 Users with many small goals often face two challenges: 
 - Difficulty deciding what to work on each day, leading to inactivity.
