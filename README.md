@@ -29,7 +29,7 @@ uvicorn app.main:app --reload
 ```
 
 ### Frontend Start
-CD into the frontend directory and it would automatically activate the virtual environment. Then run this command: 
+CD into the frontend directory and activate the virtual environment. Then run this command: 
 ```jsx 
 npm run dev 
 ```
